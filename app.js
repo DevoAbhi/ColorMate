@@ -96,25 +96,8 @@ var average = (item, args) => process(getAverage, item, args);
 
 var prominent = (item, args) => process(getProminent, item, args);
 
-prominent('img.png', { amount: 20}).then(colors => {
-    // console.log(colors);
-    for(let color of colors) {
-      //this is black or white then
-      if((color[0] <= 100 && color[1] <= 100 && color[2] <= 100) || (color[0] >= 200 && color[1] >= 200 && color[2] >= 200)) {
-          continue;
-      }
-      //this is the first non-black/white color
-      else {
-          console.log(color);
-          break;
-      }
-  }
-})
-
-// exports.average = average;
-// exports.prominent = prominent;
-
 module.exports = {
   prominent,
   average
 }
+
