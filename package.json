@@ -1,0 +1,19 @@
+{
+  "name": "dominant-color",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "color.js": "^1.2.0",
+    "gm": "^1.23.1",
+    "jimp": "^0.16.1",
+    "logo-scrape": "^1.1.0",
+    "pixel-util": "0.0.2"
+  }
+}
