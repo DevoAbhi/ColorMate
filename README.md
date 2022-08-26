@@ -7,6 +7,7 @@
 2) As it is a module, you can import `prominent` for getting dominant color from the image or `average` for getting the average color from the image.
 
 ## Working example for prominent
+```
 prominent('img.png', { amount: 20}).then(colors => {
   // console.log(colors);
   for(let color of colors) {
@@ -21,6 +22,7 @@ prominent('img.png', { amount: 20}).then(colors => {
     }
 }
 })
+```
 
 It accepts first arguments as the image file and second as the number of colors to be present in the array prominence wise.
 This is a specific use case function, where I am getting the most dominant color which is not black/white.
